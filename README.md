@@ -4,7 +4,7 @@ A lightweight implementation of a custom file system in C, featuring superblock 
 
 ## Project Overview
 
-**MiniVSFS** is an educational file system implementation that demonstrates core file system concepts including:
+**MiniVSFS** is an educational file system implementation that demonstrates core file system concepts, including:
 
 - **Superblock**: Metadata about the file system (magic number, version, block size, inode count, etc.)
 - **Inode Table**: File/directory metadata with 12 direct blocks and indirect block pointers
@@ -19,18 +19,18 @@ A lightweight implementation of a custom file system in C, featuring superblock 
 MiniVSFS/
 ├── README.md                          # This file
 ├── Main Frame/                        # Original skeleton files and reference
-│   ├── mkfs_adder_skeleton.c         # Skeleton for file addition tool
-│   ├── mkfs_builder_skeleton.c       # Skeleton for file system builder
-│   ├── file_*.txt                    # Test/reference files
+│   ├── mkfs_adder_skeleton.c          # Skeleton for file addition tool
+│   ├── mkfs_builder_skeleton.c        # Skeleton for file system builder
+│   ├── file_*.txt                     # Test/reference files
 │   └── ...
-└── Work/                             # Development and implementation files
-    ├── mkfs_adder_skeleton_V1.c      # Version 1 of adder implementation
-    ├── mkfs_adder_test.c            # Testing code for adder
-    ├── mkfs_adder_review.c          # Code review version
-    ├── mkfs_adder_final.c           # Final adder implementation
-    ├── builder_skeleton_V0.c        # Version 0 of builder
-    ├── mkfs_builder_final.c         # Final builder implementation
-    └── Final/                        # Production-ready versions
+└── Work/                              # Development and implementation files
+    ├── mkfs_adder_skeleton_V1.c       # Version 1 of adder implementation
+    ├── mkfs_adder_test.c              # Testing code for adder
+    ├── mkfs_adder_review.c            # Code review version
+    ├── mkfs_adder_final.c             # Final adder implementation
+    ├── builder_skeleton_V0.c          # Version 0 of builder
+    ├── mkfs_builder_final.c           # Final builder implementation
+    └── Final/                         # Production-ready versions
         ├── mkfs_adder_final.c
         └── mkfs_builder_final.c
 ```
@@ -43,7 +43,7 @@ Creates a new MiniVSFS file system image from scratch.
 **Key Features:**
 - Initializes superblock with file system metadata
 - Creates inode and data bitmaps
-- Sets up root directory inode
+- Sets up the root directory inode
 - Formats the file system image
 
 **Compile & Run:**
