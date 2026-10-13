@@ -2,6 +2,7 @@
 
 A lightweight implementation of a custom file system in C, featuring superblock management, inode structures, directory entries, and bitmap-based block allocation.
 
+
 ## Project Overview
 
 **MiniVSFS** is an educational file system implementation that demonstrates core file system concepts, including:
